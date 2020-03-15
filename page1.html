@@ -23,7 +23,9 @@
         tr:nth-child(even) {
             background-color: grey;
         }
-
+        h1{
+            text-align:center;
+        }
         h2{
             color: #333;
             padding: 10px;
@@ -34,31 +36,62 @@
 </head>
 <body>
     <div class="menue">
-        <a class="active" href="index.html">Home</a>
-        <a href="page1.html">Page1</a>
-        <a href="page2.html">Page2</a>
-        <a href="page3.html">Page3</a>
-        <a href="page4.html">About Project</a>
+        <div class="menue">
+            <a href="index.html">Welcome</a>
+            <a class="menueItem" href="page1.html">Page1</a>
+            <a href="page2.html">Page2</a>
+            <a href="page3.html">Page3</a>
+            <a href="page4.html">About Project</a>
+        </div>
     </div>
 
-    <h2>Let's Talk About Moon </h2>
-    <p>This table contents information source fromhttps://www.nasa.gov</p>
-    <p>We choose to go to the Moon! We choose to go to the Moon...We choose to go to the Moon in this decade and do the other things</p>
+    <h1>Let's Talk About Data </h1>
+    <p>The storm historical dataset is composed of 19 fields where the following storm details are presented:</p>
+    <p>The dataset come from the federal government data site location: ftp://ftp.ncdc.noaa.gov/pub/data/swdi/stormevents/csvfiles/</p>
 
    
     <div class="blockone ">
-        <h1>Welcome to Bulls-Moon</h1>
-        <div class="content">
-            <h3>MOON | RIDE | RETURN</h3>
+        <p>Welcome to Bulls-Storm Records Tracker</p>
+        <div class="contentone">
+            <h3> CHECK | BEFORE PURCHASE</h3>
             <p id="bodyquote">
-                Make your commute easy with Bulls-Moon, Ride made more fun and
-                easy.
+                The storm historical dataset is composed of 19 fields where the following storm details are presented:
+                <ul style="list-style-type:none;">
+                    <li>A) state Ex: GEORGIA, WYOMING, COLORADO</li>
+                    <li>The state name where the event occurred (no State ID’s are included here; State Name is spelled out in ALL CAPS)</li>
+                    <li>B) year Ex: 2000, 2006, 2012</li>
+                    <li>Four digit year for the event in this record</li>
+                    <li>C) month_name Ex: January, February, March</li>
+                    <li>Name of the month for the event in this record (spelled out; not abbreviated)</li>
+                    <li>D) event_type Ex: Hail, Thunderstorm Wind, Snow, Ice (spelled out; not abbreviated)</li>
+                    <li>E) cz_name Ex: AIKEN, RICHMOND, BAXTER (County/Parish, Zone or Marine Name assigned to the county FIPS number or NWS Forecast Zone)</li>
+                    <li>F) begin_date_time Ex: 4/1/2012 20:48</li>
+                    <li>G) cz_timezone Ex: EST-5, MST-7, CST-6</li>
+                    <li>H) end_date_time Ex: 4/1/2012 21:03</li>
+                    <li>I) injuries_direct Ex: 1, 0, 56</li>
+                    <li>J) injuries_indirect Ex: 0, 15, 87</li>
+                    <li>K) deaths_direct Ex: 0, 45, 23</li>
+                    <li>L) deaths_indirect Ex: 0, 4, 6</li>
+                    <li>M) damage_property Ex: 10.00K, 0.00K, 10.00M</li>
+                    <li>N) damage_crops Ex: 0.00K, 500.00K, 15.00M</li>
+                    <li>O) magnitude Ex: 0.75, 60, 0.88, 2.75</li>
+                    <li> P) magnitude_type Ex: EG, MS, MG, ES</li>
+                    <li>Q) tor_f_scale Ex: EF0, EF1, EF2, EF3, EF4, EF5</li>
+                    <li>    EF0 – Light Damage (40 – 72 mph)</li>
+                    <li>    EF1 – Moderate Damage (73 – 112 mph)</li>
+                    <li>    EF2 – Significant damage (113 – 157 mph)</li>
+                    <li>    EF3 – Severe Damage (158 – 206 mph)</li>
+                    <li>R) Begin Location</li>
+                    <li>S) End Location</li>
+                </ul>
+                
+
             </p>
         </div>
     </div>
     <div class="blocktwo ">
         <div class="contenttwo">
-            <h3>Insurance | & | Equipment included</h3>
+            <h3>AVOID | & | BE PREPARE</h3>
             <table>
                 <tr>
                     <th>Rank</th>
@@ -227,7 +260,7 @@
     </div>
     <div class="blockthree ">
         <div class="contenthree">
-            <h3>Anywhere | to | anywhere</h3>
+            <h3>EASY | to | USE</h3>
             <p id="bodyquotetwo">
                 Pick and drop the Bulls-Cycles anywhere in the city. All you need is a
                 Key.

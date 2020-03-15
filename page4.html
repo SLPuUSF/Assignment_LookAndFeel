@@ -9,7 +9,7 @@
     
     <style>
         body {
-            background-color: #f1f1f1;
+            background-color: whitesmoke;
             font-family: Arial;
         }
 
@@ -20,53 +20,10 @@
         }
 
         h1{
-            color: #333;
+            color: black;
             padding: 10px;
             margin-left: 10px;
             text-align:center;
-        }
-
-        .row {
-            margin: 8px -16px;
-        }
-
-        /* Add padding BETWEEN each column */
-        .row,
-        .row > .column {
-            padding: 10px;
-        }
-
-        /* Create four equal columns that floats next to each other */
-        .column {
-            float: left;
-            width: 30%;
-        }
-
-        /* Clear floats after rows */
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-
-        /* Content */
-        .content {
-            background-color: white;
-            padding: 10px;
-        }
-
-        /* Responsive layout - makes a two column-layout instead of four columns */
-        @media screen and (max-width: 600px) {
-            .column {
-                width: 50%;
-            }
-        }
-
-        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-        @media screen and (max-width: 300px) {
-            .column {
-                width: 100%;
-            }
         }
 
 
@@ -74,11 +31,13 @@
 </head>
 <body>
     <div class="menue">
-        <a class="active" href="index.html">Home</a>
-        <a href="page1.html">Page1</a>
-        <a href="page2.html">Page2</a>
-        <a href="page3.html">Page3</a>
-        <a href="page4.html">About Project</a>
+        <div class="menue">
+            <a href="index.html">Welcome</a>
+            <a href="page1.html">Page1</a>
+            <a href="page2.html">Page2</a>
+            <a href="page3.html">Page3</a>
+            <a class="menueItem" href="page4.html">About Project</a>
+        </div>
     </div>
 
     <!-- MAIN (Center website) -->
@@ -91,25 +50,25 @@
 
         <h2>PORTFOLIO</h2>
 
-        <!-- Portfolio Gallery Grid -->
-        <div class="row">
+        <!-- Group 8 team portfolio -->
+        <div class="teamInfo">
             <div class="column">
                 <div class="content">
-                    <img src="img/img5.jpg" alt="Mountains" style="width:100%">
+                    <img src="img/img9.jpg" alt="Sun" width="440" height="300">
                     <h3>Shaolin Pu</h3>
                     <p>Worked on database models, layout design, color schemes and javascript for slidshows.</p>
                 </div>
             </div>
             <div class="column">
                 <div class="content">
-                    <img src="img/img2.jpg" alt="Lights" style="width:100%">
+                    <img src="img/img7.jpg" alt="Moon" width="440" height="300">
                     <h3>Vinicius De Souza</h3>
                     <p>Worked on table design and image transition animations. </p>
                 </div>
             </div>
             <div class="column">
                 <div class="content">
-                    <img src="img/img3.jpg" alt="Nature" style="width:100%">
+                    <img src="img/img3.jpg" alt="Nature" width="440" height="300">
                     <h3>Adeyemi Omisakin</h3>
                     <p>Wroked on data collection.</p>
                 </div>
