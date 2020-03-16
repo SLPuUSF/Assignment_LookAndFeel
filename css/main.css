@@ -118,13 +118,13 @@ body {
 /* Add backgrounds to each block of content*/
 .blockone {
     padding: 2%;
-    background-image: url("../img/img6.jpg");
+    background-image: url("../img/img8.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vw;
     position: static;
     margin: 0 1% 1% 1%;
-    color: white;
+    color: black;
 }
 
 .blocktwo {
@@ -135,7 +135,7 @@ body {
     height: 50vw;
     position: static;
     margin: 0 1% 1% 1%;
-    color: white;
+    color: black;
 }
 
 .blockthree {
@@ -146,7 +146,7 @@ body {
     height: 50vw;
     position: static;
     margin: 0 1% 1% 1%;
-    color: white;
+    color: black;
 }
 
 .teamInfo {
