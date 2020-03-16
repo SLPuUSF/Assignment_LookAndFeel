@@ -118,7 +118,7 @@ body {
 /* Add backgrounds to each block of content*/
 .blockone {
     padding: 2%;
-    background-image: url("../img/img1.jpg");
+    background-image: url("../img/img6.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vw;
@@ -129,7 +129,7 @@ body {
 
 .blocktwo {
     padding: 2%;
-    background-image: url("../img/img2.jpg");
+    background-image: url("../img/img7.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vw;
@@ -140,7 +140,7 @@ body {
 
 .blockthree {
     padding: 2%;
-    background-image: url("../img/img3.jpg");
+    background-image: url("../img/img8.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vw;
