@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <title>Moon/Group 8</title>
+    <title>StormTracker/Group 8</title>
    
     <style>
         table {
@@ -30,6 +30,9 @@
             margin-left: 10px;
             text-align:center;
         }
+        p{
+            text-align:center;
+        }
     </style>
 </head>
 <body>
@@ -43,131 +46,26 @@
         </div>
     </div>
 
-    <h2>Landing Vehicles in 1969 & 2020</h2>
-    <p>Personal vehicles are a major source of global warming. Nearly one fifth of all US emissions, emitting approx 24 lbs of carbon dioxide and other global-warming gases for every gallon of gas.</p>
-    <p>Transporation accounts for largest contributor of US Greenhouse Gases emission i.e. 29%.</p>
-    <p>Adopting Fuel-efficient vehicles, Cleaner fuels, Electric cars and trucks etc. can help us control greenhouse effect.</p>
+    <h2>Check the Storm Records in Your Location</h2>
+    <p>Please inpu required informaiton to check the historical records of your selected location.</p>
+    <p> </p>
+    <p> </p>
 
-    <div style="overflow-x:auto;">
-        <table>
-            <tr>
-                <th>Manufacturer</th>
-                <th>Car/Truck</th>
-                <th>Vehicle Type</th>
-                <th>Model</th>
-                <th>Drive Type</th>
-                <th>Horse Power(HP) </th>
-                <th>Weight(lbs)</th>
-                <th>CO2 City(g/mi)</th>
-                <th>CO2 Highway(g/mi)</th>
-                <th>CO2 Comb(g/mi)</th>
-                <th>Volume     (Cu-Ft)</th>
-            </tr>
-            <tr>
-                <td>GM</td>
-                <td>Car</td>
-                <td>Sedan/Wagon</td>
-                <td>2017</td>
-                <td>Front Wheel Drive</td>
-                <td>213</td>
-                <td>3494</td>
-                <td>351</td>
-                <td>247</td>
-                <td>292</td>
-                <td>107</td>
-            </tr>
-            <tr>
-                <td>GM</td>
-                <td>Car</td>
-                <td>Sedan/Wagon</td>
-                <td>2018</td>
-                <td>Front Wheel Drive</td>
-                <td>213</td>
-                <td>3514</td>
-                <td>354</td>
-                <td>256</td>
-                <td>298</td>
-                <td>108</td>
-            </tr>
-            <tr>
-                <td>GM</td>
-                <td>Car</td>
-                <td>Car SUV</td>
-                <td>2017</td>
-                <td>All Wheel Drive</td>
-                <td>183</td>
-                <td>3900</td>
-                <td>414</td>
-                <td>286</td>
-                <td>341</td>
-                <td>117</td>
-            </tr>
-            <tr>
-                <td>GM</td>
-                <td>Car</td>
-                <td>Car SUV</td>
-                <td>2018</td>
-                <td>All Wheel Drive</td>
-                <td>151</td>
-                <td>4500</td>
-                <td>751</td>
-                <td>619</td>
-                <td>692</td>
-                <td>125</td>
-            </tr>
-            <tr>
-                <td>GM</td>
-                <td>Truck</td>
-                <td>Van</td>
-                <td>2017</td>
-                <td>Front Wheel Drive</td>
-                <td>324</td>
-                <td>6669</td>
-                <td>862</td>
-                <td>577</td>
-                <td>699</td>
-                <td>149</td>
-            </tr>
-            <tr>
-                <td>GM</td>
-                <td>Truck</td>
-                <td>Van</td>
-                <td>2018</td>
-                <td>Front Wheel Drive</td>
-                <td>131</td>
-                <td>3500</td>
-                <td>370</td>
-                <td>342</td>
-                <td>354</td>
-                <td>114</td>
-            </tr>
-            <tr>
-                <td>GM</td>
-                <td>Truck</td>
-                <td>Truck SUV</td>
-                <td>2017</td>
-                <td>Rear Wheel Drive</td>
-                <td>293</td>
-                <td>5007</td>
-                <td>529</td>
-                <td>371</td>
-                <td>439</td>
-                <td>137</td>
-            </tr>
-            <tr>
-                <td>GM</td>
-                <td>Truck</td>
-                <td>Truck SUV</td>
-                <td>2018</td>
-                <td>Rear Wheel Drive</td>
-                <td>288</td>
-                <td>4731</td>
-                <td>483</td>
-                <td>349</td>
-                <td>406</td>
-                <td>135</td>
-            </tr>
-        </table>
+    <div class="inputform">
+        <form>
+            <label for="userid">UserID:</label><br>
+            <input type="text" id="userid" name="userid"><br>
+            <label for="statename">State:</label><br>
+            <input type="text" id="statename" name="statename"><br>
+            <label for="location">Location:</label><br>
+            <input type="text" id="location" name="location"><br>
+            <label for="year">Year:</label><br>
+            <input type="text" id="year" name="year"><br>
+            <label for="month">State:</label><br>
+            <input type="text" id="month" name="month"><br><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
     </div>
 
 </body>
